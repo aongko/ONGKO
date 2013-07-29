@@ -1,0 +1,34 @@
+table {
+	border: 0;
+}
+
+table.withborder {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table.withborder tr th {
+	font-weight: bold;
+	text-align: center;
+}
+
+table.withborder tr td, th {
+	border: 1px solid #666666;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+table tr td.tdLeft {
+	text-align: left;
+}
+table tr td.tdRight {
+	text-align: right;
+}
+table tr td.tdMiddle {
+	text-align: center;
+}
